@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio - Administrator & Web Developer</title>
+    <!-- Kita menggunakan Tailwind CSS agar tampilan bagus tanpa perlu file CSS terpisah -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Sedikit animasi agar website terasa hidup */
+        .fade-in { animation: fadeIn 1.5s ease-in; }
+        @keyframes fadeIn { 0% { opacity: 0; } 100% { opacity: 1; } }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans antialiased">
+
+    <!-- BAGIAN HEADER (ATAS) -->
+    <header class="bg-blue-600 text-white py-20 px-5 text-center fade-in">
+        <h1 class="text-4xl font-bold mb-4">Halo, Saya [Nama Anda]</h1>
+        <p class="text-xl mb-8">Administrator & Web Developer Enthusiast</p>
+        <a href="#kontak" class="bg-white text-blue-600 px-6 py-3 rounded-full font-semibold hover:bg-gray-100 transition">Hubungi Saya</a>
+    </header>
+
+    <!-- BAGIAN TENTANG SAYA -->
+    <section class="max-w-4xl mx-auto py-16 px-5" id="tentang">
+        <h2 class="text-3xl font-bold text-center mb-8 text-blue-600">Tentang Saya</h2>
+        <p class="text-lg leading-relaxed text-center">
+            Saya adalah lulusan SMK jurusan Teknik Komputer Jaringan (TKJ) yang saat ini bekerja sebagai Administrator di institusi kesehatan. Saya memiliki ketelitian tinggi dalam mengelola data menggunakan Excel dan memiliki ketertarikan besar dalam mengembangkan aplikasi web. Saya siap membantu merapikan sistem data dan mendigitalisasi proses kerja Anda.
+        </p>
+    </section>
+
+    <!-- BAGIAN PROYEK / KARYA -->
+    <section class="bg-gray-200 py-16 px-5" id="proyek">
+        <div class="max-w-5xl mx-auto">
+            <h2 class="text-3xl font-bold text-center mb-10 text-blue-600">Karya & Proyek</h2>
+            
+            <div class="grid md:grid-cols-2 gap-8">
+                <!-- Proyek 1: Excel -->
+                <div class="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition">
+                    <h3 class="text-2xl font-semibold mb-3">Sistem Rekapitulasi Data (Excel)</h3>
+                    <p class="mb-4 text-gray-600">Sebuah dashboard interaktif menggunakan Pivot Table dan VLOOKUP untuk melacak dan memvisualisasikan data operasional bulanan secara otomatis. Memangkas waktu pelaporan hingga 50%.</p>
+                    <span class="inline-block bg-green-100 text-green-800 px-3 py-1 rounded text-sm font-semibold">Microsoft Excel</span>
+                </div>
+
+                <!-- Proyek 2: Web -->
+                <div class="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition">
+                    <h3 class="text-2xl font-semibold mb-3">Web Informasi Jadwal Sederhana</h3>
+                    <p class="mb-4 text-gray-600">Aplikasi web satu halaman yang responsif untuk menampilkan jadwal operasional dan layanan. Dibangun menggunakan HTML, CSS, dan logika dasar pemrograman web.</p>
+                    <span class="inline-block bg-blue-100 text-blue-800 px-3 py-1 rounded text-sm font-semibold">HTML & CSS</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- BAGIAN KONTAK -->
+    <section class="max-w-4xl mx-auto py-16 px-5 text-center" id="kontak">
+        <h2 class="text-3xl font-bold mb-8 text-blue-600">Mari Bekerja Sama</h2>
+        <p class="text-lg mb-8">Apakah Anda butuh bantuan untuk mengolah data kompleks atau membuat website sederhana untuk bisnis Anda?</p>
+        <!-- Ganti nomor WhatsApp di bawah ini (gunakan format 62 tanpa +) -->
+        <a href="https://wa.me/6281234567890" target="_blank" class="bg-green-500 text-white px-8 py-4 rounded-lg font-bold text-lg hover:bg-green-600 transition">Chat via WhatsApp</a>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="bg-gray-800 text-white text-center py-6">
+        <p>&copy; 2026 [Nama Anda]. Dibuat dengan semangat belajar.</p>
+    </footer>
+
+</body>
+</html>
